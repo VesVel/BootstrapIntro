@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Dropdown Menus</title>
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <script src="Scripts/jquery-3.4.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                <h2>Simple Dropdown</h2>
+                <div class="dropdown">
+                    <!--data-toggle dropdown is a tag that the jscript will hoook to to make the menu appear/disapear-->
+                    <a id ="dropdownmenu" class="dropdown-toggle" data-toggle="dropdown" href="aaa">See the sites!<span class="caret"></span></a>
+                    
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownmenu">
+                        <li><a tabindex="-1" href ="http://pluralsight.com">Pluralsight</a></li>
+                        <li><a tabindex="-1" href="http://amazon.com">Amazon</a></li>
+                        <li><a tabindex="-1" href="http://microsoft.com">Microsoft</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="span12">
+                <h2>With Dividers</h2>
+                <div class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="aaa">Menu with dropdown<span class="caret"></span></a>
+
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownmenu">
+                        <li><a tabindex="-1" href="http://ebay.com">Ebay</a></li>
+                        <li class="divider"></li>
+                        <li><a tabindex="-1" href="http://cnn.com">CNN</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="span12">
+                <h2>Sub Menu</h2>
+                <div class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="aaa">Sub Menu<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a tabindex="-1" href="http://ebay.com">Ebay</a></li>
+                        <li><a tabindex="-1" href="http://cnn.com">CNN</a></li>
+                        <li class="divider"></li>
+                        <li class="dropdown-submenu">
+                            <a href="#">More Options</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://odetocode.com">Ode To Code</a></li>
+                                <li><a href="http://facebook.com">Facebook</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

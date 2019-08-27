@@ -1,0 +1,16 @@
+﻿/*Overwrite the default bootstrap table hover and stripe properties*/
+
+/*if this is above the .table-hover, each row will be colored on hover*/ 
+/*.table-striped tbody > tr:nth-child(odd) > td, .table-striped tbody > tr:nth-child(odd) > th {
+    background-color: #808080;
+}*/
+
+/*if this is above the .table-striped, only even rows will be colored on hover*/
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+    background-color: #b6ff00;
+}
+
+
+
+
