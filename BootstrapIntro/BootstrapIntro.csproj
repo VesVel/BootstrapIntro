@@ -80,6 +80,7 @@
     <Content Include="DropdownMenus.html" />
     <Content Include="Introduction.html" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Navigation.html" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.js" />

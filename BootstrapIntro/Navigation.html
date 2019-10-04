@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Navigation Menus</title>
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <script src="Scripts/jquery-3.4.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="span3">
+
+                <h2>Tabs & Pills</h2>
+<!--nav-stacked will make the menu (UL) vertical and pull-right-->
+<!--nav-pills instead of nav-tabs will make the menu (UL) buttons-->
+<!--can also use nav-list instead of nav-stacked-->
+<!--can also add a header to nav-list-->
+                <ul class="nav nav-list">
+                    <li class="nav-header">My Nav Menus</li>
+                    <li class="active"><a href="www.microsoft.com">Home</a></li>
+                    <li><a href="www.amazon.com">Contact</a></li>
+                    <li><a href="www.ebay.com">Sales</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">See more Sites!<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownmenu">
+                            <li><a>Site 1</a></li>
+                            <li><a>Site 2</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="span9">
+                <h2>Tabbable</h2>
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
+                    <li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="tab1">
+                        <p>Twitter Bootstrap is fun!</p>
+                    </div>
+                    <div class="tab-pane" id="tab2">
+                        <p>Pluralsight is fun!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
